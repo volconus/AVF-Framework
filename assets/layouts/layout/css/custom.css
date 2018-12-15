@@ -1,0 +1,17 @@
+/* here you can put your own css to customize and override the theme */
+.full-width-loader {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.8;
+    z-index: 9999999;
+}
+
+.full-width-loader img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -60px;
+}
